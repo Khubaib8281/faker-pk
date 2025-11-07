@@ -142,4 +142,4 @@ This project is licensed under the **MIT License**.
 
 If you find this library useful, consider giving it a **star** on GitHub to support development!
 
-👉 [https://github.com/Khubaib8281/faker-pk](https://github.com/Khubaib8281/faker-pk)
+[https://github.com/Khubaib8281/faker-pk](https://github.com/Khubaib8281/faker-pk)
