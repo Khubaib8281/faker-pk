@@ -82,7 +82,7 @@ fake.city(3)
 ---
 
 ## 🧪 Example Script
-
+   
 ```python
 from faker_pk import FakerPK
 
@@ -103,10 +103,10 @@ for _ in range(3):
 {'Name': 'Ali Raza', 'CNIC': '35201-6543210-7', 'Phone': '+923125678901', 'Address': 'House No. 12, Street No. 3, Islamabad, Islamabad, 44000', 'Company': 'Techworks'}
 ```
 
----
+---   
 
 ## 🛠️ Development
-
+  
 Clone the repository and install locally:
 
 ```bash
@@ -142,4 +142,4 @@ This project is licensed under the **MIT License**.
 
 If you find this library useful, consider giving it a **star** on GitHub to support development!
 
-[https://github.com/Khubaib8281/faker-pk](https://github.com/Khubaib8281/faker-pk)
+👉 [https://github.com/Khubaib8281/faker-pk](https://github.com/Khubaib8281/faker-pk)
