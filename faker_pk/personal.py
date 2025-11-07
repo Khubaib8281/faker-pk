@@ -118,3 +118,24 @@ LAST_NAMES = [
     "Abbassi", "Bohra", "Hanjra", "Rajpoot", "Siddiqui", "Qaim", "Shuja", "Qamar", "Irfan", "Talpur"
 ]
 
+def male_name():
+    """Generate a random male full name."""
+    return random.choice(MALE_NAMES) + " " + random.choice(LAST_NAMES)
+
+def female_name():
+    """Generate a random female full name."""
+    return random.choice(FEMALE_NAMES) + " " + random.choice(LAST_NAMES)
+
+def cnic():       
+    part1 = str(random.randint(10000, 99999))
+    part2 = str(random.randint(1000000, 9999999))
+    part3 = str(random.randint(0, 9))
+    return f"{part1}-{part2}-{part3}"       
+
+def phone_number():
+    prefixes = ["300", "301", "302", "303", "304", "305", "306", "307", "308", "309",
+                "310", "311", "312", "313", "314", "315", "316", "317", "318", "319"]
+    prefix = random.choice(prefixes)
+    remaining = str(random.randint(1000000, 9999999))
+    return f"+92{prefix}{remaining}"
+
