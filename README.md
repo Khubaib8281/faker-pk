@@ -135,6 +135,7 @@ This project is licensed under the **MIT License**.
 **Muhammad Khubaib Ahmad**  
 📧 [khubaib0.1ai@gmail.com](mailto:khubaib0.1ai@gmail.com)  
 🌐 [GitHub: Khubaib8281](https://github.com/Khubaib8281)
+🐍 [PYPI: Khubaib_01](https://pypi.org/project/faker-pk)
 
 ---
 
