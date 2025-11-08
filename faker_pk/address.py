@@ -7,7 +7,7 @@ CITIES = [
 
 PROVINCES = ["Punjab", "Sindh", "Khyber Pakhtunkhwa", "Balochistan", "Gilgit Baltistan"]
 
-def city():
+def city():     
     """Return a random Pakistani city."""
     return random.choice(CITIES)
 
