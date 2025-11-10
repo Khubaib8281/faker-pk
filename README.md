@@ -1,5 +1,5 @@
 # 🇵🇰 faker-pk
-
+![PyPI downloads](https://img.shields.io/pypi/dm/faker-pk)
 **faker-pk** is a lightweight Python library that generates **fake Pakistani data** — including names, CNICs, phone numbers, cities, and addresses — for testing, demos, and development purposes.
 
 It’s designed for developers who want **realistic-looking Pakistani data** in their applications or ML datasets.
