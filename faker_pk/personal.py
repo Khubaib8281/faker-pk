@@ -1,5 +1,6 @@
 import random
-
+from datetime import date, timedelta
+    
 MALE_NAMES = [
     "Ahmed", "Muhammad", "Ali", "Hassan", "Hussain", "Bilal", "Hamza", "Umar", "Usman", "Abdullah",
     "Abdul Rahman", "Abdul Rehman", "Abdul Basit", "Abdul Hadi", "Abdul Wahab", "Abdul Samad", "Abdul Qadir", "Abdul Majeed", "Abdul Rauf", "Abdul Aziz",
@@ -118,10 +119,36 @@ LAST_NAMES = [
     "Abbassi", "Bohra", "Hanjra", "Rajpoot", "Siddiqui", "Qaim", "Shuja", "Qamar", "Irfan", "Talpur"
 ]
 
-def male_name():
+
+SIM_PROVIDERS = ["Jazz", "Zong", "Ufone", "Telenor", "Warid", "Onic"]
+
+def sim_provider():
+    return random.choice(SIM_PROVIDERS)
+
+
+CASTES = ["Sheikh", "Ansari", "Raja", "Malik", "Qureshi", "Chaudhry", "Jutt", "Butt", "Rajput", "Rana"]   
+SECTS = ["Sunni", "Shia"]
+
+def caste():
+    return random.choice(CASTES)
+
+def sect():
+    return random.choice(SECTS)
+    
+def dob(start_year=1950, end_year=2006):
+    """Generate a random date of birth between start_year and end_year"""
+    start = date(start_year, 1, 1)
+    end = date(end_year, 12, 31)  
+    delta = end - start
+    random_days = random.randint(0, delta.days)
+    return start + timedelta(days=random_days)
+
+
+
+def male_name():        
     """Generate a random male full name."""
     return random.choice(MALE_NAMES) + " " + random.choice(LAST_NAMES)
-
+    
 def female_name():
     """Generate a random female full name."""
     return random.choice(FEMALE_NAMES) + " " + random.choice(LAST_NAMES)
@@ -138,4 +165,3 @@ def phone_number():
     prefix = random.choice(prefixes)
     remaining = str(random.randint(1000000, 9999999))
     return f"+92{prefix}{remaining}"
-

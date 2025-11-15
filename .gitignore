@@ -1,6 +1,7 @@
 __pycache__/
 *.logs/
 .Python
+*.txt
 dist/
 *.egg-info
 .eggs/
