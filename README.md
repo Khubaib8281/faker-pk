@@ -225,6 +225,7 @@ MIT License.
 **Muhammad Khubaib Ahmad**  
 > **Email:** khubaib0.1ai@gmail.com  
 > **GitHub:** https://github.com/Khubaib8281
+> **LinkedIn:** https://www.linkedin.com/in/muhammad-khubaib-ahmad-
 
 ---
 
