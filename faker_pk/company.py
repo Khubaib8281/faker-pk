@@ -40,7 +40,7 @@ INDUSTRIES = [
 # Job titles mapped to industries
 
 JOB_TITLE_MAPPING = {
-    "Information Technology": [
+    "IT": [
         "Software Engineer", "Frontend Developer", "Backend Developer",
         "Full Stack Developer", "DevOps Engineer", "Data Scientist",
         "Machine Learning Engineer", "AI Researcher", "Cybersecurity Engineer",
@@ -61,31 +61,31 @@ JOB_TITLE_MAPPING = {
         "Teacher", "Lecturer", "Professor", "Research Associate", 
         "Academic Coordinator", "Curriculum Designer", "Educational Consultant"
     ],
-    "Marketing & Media": [
+    "Marketing": [
         "Graphic Designer", "Content Writer", "Copywriter", "Video Editor",
         "Animator", "Photographer", "Digital Marketing Specialist",
         "Social Media Manager", "Art Director", "Marketing Manager", "Sales Executive"
     ],
-    "Government / Public Sector": [
+    "Government": [
         "Civil Servant", "Policy Analyst", "Administrative Officer",
         "Diplomat", "Law Enforcement Officer", "Urban Planner"
     ],
-    "Engineering / Manufacturing": [
+    "Engineering": [
         "Civil Engineer", "Mechanical Engineer", "Electrical Engineer",
         "Chemical Engineer", "Industrial Engineer", "Production Manager",
         "Quality Assurance Engineer"
     ],
-    "Hospitality / Retail": [
+    "Retail": [
         "Hotel Manager", "Chef", "Waiter", "Waitress", "Store Manager",
         "Sales Associate", "Customer Service Representative"
     ],
-    "Entrepreneur / Startup": [
+    "Entrepreneur": [
         "Entrepreneur", "Startup Founder", "Business Development Manager",
         "Operations Manager", "Strategy Analyst", "Consultant"
     ],
-    "Legal / Consulting": [
+    "Consulting": [
         "Legal Advisor", "Lawyer", "Advocate", "Compliance Officer", "Consultant"
-    ]
+    ]   
 }
 
 # Functions
@@ -120,16 +120,16 @@ def salary(industry=None):
     """
     # Rough salary ranges (monthly PKR)
     ranges = {
-        "Information Technology": (50000, 250000),
+        "IT": (50000, 250000),
         "Finance": (40000, 200000),
         "Healthcare": (30000, 180000),
-        "Education": (25000, 120000),
-        "Marketing & Media": (30000, 150000),
-        "Government / Public Sector": (25000, 120000),
-        "Engineering / Manufacturing": (35000, 180000),
-        "Hospitality / Retail": (20000, 100000),
-        "Entrepreneur / Startup": (50000, 300000),
-        "Legal / Consulting": (40000, 200000)
+        "Education": (25000, 120000),   
+        "Marketing": (30000, 150000),   
+        "Govt": (25000, 120000),
+        "Engineering": (35000, 180000),
+        "Retail": (20000, 100000),
+        "Entrepreneur": (50000, 300000),
+        "Consulting": (40000, 200000)
     }  
 
     if industry and industry in ranges:
@@ -137,4 +137,4 @@ def salary(industry=None):
     else:
         low, high = random.choice(list(ranges.values()))
 
-    return random.randint(low, high)     
+    return random.randint(low, high)        

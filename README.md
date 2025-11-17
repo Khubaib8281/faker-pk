@@ -94,16 +94,16 @@ Below is the full API that faker-pk generates.
 | `salary(count=1, industry=industry)` | Salary estimates (industry-aware) | `95000` |
 
 > Valid ```industry``` parameters that are considered:
-- Information Technology   
+- IT   
 - Finance
 - Healthcare
 - Education  
-- Marketing & Media
-- Government / Public Sector
-- Engineering / Manufacturing
-- Hospitality / Retail
-- Entrepreneur / Startup
-- Legal / Consulting
+- Marketing
+- Government
+- Engineering
+- Retail
+- Entrepreneur
+- Consulting
 
 ---
 
@@ -214,7 +214,7 @@ for _ in range(3):
 ## 🛠️ Development
   
 Clone the repository and install locally:
-  
+
 ```bash
 git clone https://github.com/Khubaib8281/faker-pk.git
 cd faker-pk
