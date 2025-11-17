@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [build-system]   
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"    
@@ -7,6 +8,28 @@ name = "faker-pk"
 version = "0.1.8"             
 description = "Fake data generator for Pakistani names, CNICs, personal info, address info, job titles, IBAN, Bank names, cities, provinces, castes, sect, network providers, job aware salaries and companies info."   
 readme = "README.md"   
+authors = [{ name = "Muhammad Khubaib Ahmad", email = "khubaib0.1ai@gmail.com" }]
+license = { text = "MIT" }   
+requires-python = ">=3.8"
+dependencies = []
+keywords = ["faker", "pakistan", "data", "mock", "testing"]
+classifiers = [
+    "Programming Language :: Python :: 3",  
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]    
+
+[project.urls]
+=======
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"    
+     
+[project]        
+name = "faker-pk"
+version = "0.1.7"             
+description = "Fake data generator for Pakistani names, CNICs, phone numbers, and addresses."
+readme = "README.md"
 authors = [{ name = "Muhammad Khubaib Ahmad", email = "khubaib0.1ai@gmail.com" }]
 license = { text = "MIT" }
 requires-python = ">=3.8"
@@ -19,4 +42,5 @@ classifiers = [
 ]    
 
 [project.urls]
+>>>>>>> 897d9def49723d8647963d7de9780c184b5258da
 "Homepage" = "https://github.com/Khubaib8281/faker-pk"   

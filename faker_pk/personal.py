@@ -119,7 +119,6 @@ LAST_NAMES = [
     "Abbassi", "Bohra", "Hanjra", "Rajpoot", "Siddiqui", "Qaim", "Shuja", "Qamar", "Irfan", "Talpur"
 ]
 
-
 SIM_PROVIDERS = ["Jazz", "Zong", "Ufone", "Telenor", "Warid", "Onic"]
 
 def sim_provider():
@@ -142,8 +141,6 @@ def dob(start_year=1950, end_year=2006):
     delta = end - start
     random_days = random.randint(0, delta.days)
     return start + timedelta(days=random_days)
-
-
 
 def male_name():        
     """Generate a random male full name."""
