@@ -1,15 +1,10 @@
 # 🇵🇰 faker-pk
-<<<<<<< HEAD
+![PyPI downloads](https://img.shields.io/pypi/dm/faker-pk)\
 
 faker-pk is a Python library that generates realistic Pakistani data for testing, demos, datasets, and development.  
 It includes names, CNICs, phone numbers, addresses, bank info, company details, jobs, salaries, and more.  
 It also provides full support as a Faker provider so you can integrate it directly into the Faker ecosystem.
-=======
-![PyPI downloads](https://img.shields.io/pypi/dm/faker-pk)\
-**faker-pk** is a lightweight Python library that generates **fake Pakistani data** — including names, CNICs, phone numbers, cities, and addresses — for testing, demos, and development purposes.
-
 It’s designed for developers who want **realistic-looking Pakistani data** in their applications or ML datasets.
->>>>>>> 897d9def49723d8647963d7de9780c184b5258da
 
 ---
 
@@ -178,10 +173,6 @@ print(fake.pk_full_address())
 
 ---
 
-<<<<<<< HEAD
-# 🧪 Example Script
-
-=======
 ## 🧩 API Reference
 
 | Function | Description | Example Output |
@@ -196,10 +187,7 @@ print(fake.pk_full_address())
 | `company_name(count=1)` | Returns random company names | `['TechNova Pvt Ltd']` |
 
 ---
-
-## 🧪 Example Script
-   
->>>>>>> 897d9def49723d8647963d7de9780c184b5258da
+### Example Script
 ```python
 from faker_pk import FakerPK
 
@@ -216,11 +204,6 @@ for _ in range(3):
     })
 ```
 
-<<<<<<< HEAD
----
-
-# 🛠️ Development
-=======
 **Output:**   
 ```
 {'Name': 'Ali Raza', 'CNIC': '35201-6543210-7', 'Phone': '+923125678901', 'Address': 'House No. 12, Street No. 3, Islamabad, Islamabad, 44000', 'Company': 'Techworks'}
@@ -263,14 +246,11 @@ MIT License.
 # 👤 Author
 
 **Muhammad Khubaib Ahmad**  
-<<<<<<< HEAD
-> **Email:** khubaib0.1ai@gmail.com  
-> **GitHub:** https://github.com/Khubaib8281
-=======
+
 📧 [khubaib0.1ai@gmail.com](mailto:khubaib0.1ai@gmail.com)  
 🌐 [GitHub: Khubaib8281](https://github.com/Khubaib8281)
 🐍 [PYPI: Khubaib_01](https://pypi.org/project/faker-pk)
->>>>>>> 897d9def49723d8647963d7de9780c184b5258da
+> **LinkedIn:** https://www.linkedin.com/in/muhammad-khubaib-ahmad-
 
 ---
 
