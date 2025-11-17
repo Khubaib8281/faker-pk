@@ -121,7 +121,7 @@ LAST_NAMES = [
 
 SIM_PROVIDERS = ["Jazz", "Zong", "Ufone", "Telenor", "Warid", "Onic"]
 
-def sim_provider():
+def sim_provider():   
     return random.choice(SIM_PROVIDERS)
 
 
