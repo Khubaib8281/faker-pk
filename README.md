@@ -214,8 +214,7 @@ for _ in range(3):
 ## 🛠️ Development
   
 Clone the repository and install locally:
->>>>>>> 897d9def49723d8647963d7de9780c184b5258da
-
+  
 ```bash
 git clone https://github.com/Khubaib8281/faker-pk.git
 cd faker-pk
