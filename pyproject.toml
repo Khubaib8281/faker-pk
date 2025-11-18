@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 [build-system]   
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"    
      
 [project]        
 name = "faker-pk"
-version = "0.1.8"             
+version = "0.1.9"                
 description = "Fake data generator for Pakistani names, CNICs, personal info, address info, job titles, IBAN, Bank names, cities, provinces, castes, sect, network providers, job aware salaries and companies info."   
 readme = "README.md"   
 authors = [{ name = "Muhammad Khubaib Ahmad", email = "khubaib0.1ai@gmail.com" }]
